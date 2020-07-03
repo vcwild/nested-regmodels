@@ -18,7 +18,7 @@ Inside the project root folder, execute the following
 ```
 R
 library(rmarkdown)
-rmarkdown::render("script.Rmd", "html_document")
+rmarkdown::render("test.Rmd", "html_document")
 ```
 
 ## CODEBOOK
