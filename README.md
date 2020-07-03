@@ -2,7 +2,28 @@ Motor Trend Analysis
 ================
 > In this project we will use the mtcars dataset, Regression Linear Models and ANOVA and try to answer if manual vehicles do significantly more miles per gallon than automatic ones.
 
-## Setup
+## Tools Used
+
+  - R language compiler
+  - R base graphic devices
+  - Tidyverse library packages
+  - CAR library package
+  - RMarkdown library package
+  - Knitr library package
+
+## Build from Source
+
+Inside the project root folder, execute the following
+
+```
+R
+library(rmarkdown)
+rmarkdown::render("script.Rmd", "html_document")
+```
+
+## CODEBOOK
+
+### Setup
 
 ``` r
 require(tidyverse)
@@ -10,7 +31,7 @@ require(datasets)
 require(car)
 ```
 
-## EDA
+### EDA
 
 ``` r
 df <- mtcars
@@ -159,7 +180,7 @@ summary(fit5)$coef
     ## factor(am)auto:qsec    0.59248072 0.39330262  1.5064246 1.444907e-01
     ## factor(am)manual:qsec  1.36276488 0.42535901  3.2037993 3.681525e-03
 
-## Summary
+### Summary
 
 The model explains for 90.5% of the total variance, or 88.3% of the
 adjusted variance.
