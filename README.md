@@ -190,7 +190,7 @@ adjusted variance.
     manual transmission is proven to be better for heavier vehicles.
 
   - Manual vehicles mpg decrease rate (slope) is less inclined. Meaning
-    that lighter and less weighted vehicles do more miles per gallon.
+    that manual light weighted vehicles do more miles per gallon.
 
 <!-- end list -->
 
